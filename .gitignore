@@ -1,0 +1,93 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable file
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VS Code
+.vscode/
+
+# .idea
+.idea/
+
+# Sublime
+.sublime-project
+.sublime-workspace
+
+# WebStorm
+.idea/
+
+# Yeoman
+.yeoman-*
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Parcel
+dist/
+
+# Svelte
+__sapper__/
+
+# Rollup
+.rollup-cache/
+
+# Ignore dist folder in the root
+/dist
+
+# Ignore .env file containing sensitive information
+# .env
+
+# Ignore .env.local file containing sensitive information
+.env.local
+
+# Ignore .env.*.local files containing sensitive information
+.env.*.local
+
+# Ignore Node.js process dump files
+*.tmp
+*.dmp
+
+# Ignore build artifacts and dependencies
+node_modules/
+dist/
+.cache/
+build/
+out/
+.DS_Store
+.vercel
